@@ -1,8 +1,9 @@
 package com.ersaldyraisha.smartrash.API;
 
+import com.ersaldyraisha.smartrash.Model.ResponseHTTP;
+
 import retrofit2.Call;
 import retrofit2.http.GET;
-import retrofit2.http.Query;
 
 /**
  * Created by A.I on 07/11/2017.
@@ -11,6 +12,6 @@ import retrofit2.http.Query;
 public interface ApiInterface {
 
     @GET("api/trashdata")
-    Call<CowResponseItem> getCow(@Query("X-Authorization") String apiKey);
+    Call<ResponseHTTP> getTrash();
 
 }

@@ -8,7 +8,7 @@ import java.util.List;
  * Created by A.I on 07/11/2017.
  */
 
-public class Response {
+public class ResponseHTTP {
 
     @SerializedName("code")
     private String code;
