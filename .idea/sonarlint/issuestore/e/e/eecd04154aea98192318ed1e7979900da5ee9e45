@@ -1,0 +1,5 @@
+
+Dsquid:S1068"*Remove this unused "layout" private field.(Î‰ð›ÿÿÿÿÿ
+?squid:S1068"+Remove this unused "context" private field.(êÝç
+\squid:S1858"G"getCreated_at" returns a string, there's no need to call "toString()".(¬ôŽ„
+msquid:S00120"WRename this package name to match the regular expression '^[a-z]+(\.[a-z][a-z0-9]*)*$'.(ã‰¹ã

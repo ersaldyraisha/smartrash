@@ -15,6 +15,7 @@ import com.ersaldyraisha.smartrash.Adapter.TrashAdapter;
 import com.ersaldyraisha.smartrash.Model.Distance;
 import com.ersaldyraisha.smartrash.Model.ResponseHTTP;
 import com.ersaldyraisha.smartrash.Model.Trash;
+import com.google.firebase.iid.FirebaseInstanceId;
 
 import java.util.List;
 
@@ -46,6 +47,10 @@ public class MainActivity extends AppCompatActivity {
         recyclerView.setLayoutManager(mLayoutManager);
 
         apiInterface = ApiClient.getClient().create(ApiInterface.class);
+
+        String refreshedToken = FirebaseInstanceId.getInstance().getToken();
+        Log.d(TAG, "Refreshed token: " + refreshedToken);
+
 
         getData();
 

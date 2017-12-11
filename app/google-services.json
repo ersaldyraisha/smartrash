@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "324767857722",
+    "firebase_url": "https://smartrash-ec70b.firebaseio.com",
+    "project_id": "smartrash-ec70b",
+    "storage_bucket": "smartrash-ec70b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:324767857722:android:3c9b17bb45994a15",
+        "android_client_info": {
+          "package_name": "com.ersaldyraisha.smartrash"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "324767857722-hk1ieh9257p16e17vc4nr0ifglipkdju.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAJDB6f5HGXMf2tKlVwE-KgwB5y1Ft6-UU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

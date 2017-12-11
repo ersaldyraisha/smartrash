@@ -20,4 +20,10 @@
         </activity>
     </application>
 
+    <service android:name=".helper.Notification">
+        <intent-filter>
+            <action android:name="com.google.firebase.MESSAGING_EVENT" />
+        </intent-filter>
+    </service>
+
 </manifest>

@@ -9,7 +9,7 @@ import retrofit2.converter.gson.GsonConverterFactory;
 
 public class ApiClient {
 
-    public static final String BASE_URL = "http://10.151.12.48/laravelLearning/laravelLearning/public/";
+    public static final String BASE_URL = "http://classified5.me/laravelLearning/";
     //    public static final String BASE_URL = "http://192.168.1.62/karapan-api/karapan-api/public/";
 //    public static final String API_KEY = "e36b1801d7b695e3f2c7ccaf8f4723b92b45352b";
     private static Retrofit retrofit = null;

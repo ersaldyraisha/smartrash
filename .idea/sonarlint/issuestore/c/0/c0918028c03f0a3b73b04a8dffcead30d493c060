@@ -1,0 +1,15 @@
+
+@squid:S1659"&Declare "tvStatus" on a separate line.(æí¿ùÿÿÿÿ
+>squid:S1659"$Declare "tvName" on a separate line.(æí¿ùÿÿÿÿ
+Asquid:S1659"'Declare "tvCreated" on a separate line.(æí¿ùÿÿÿÿ
+?squid:S1659"%Declare "tvColor" on a separate line.(æí¿ùÿÿÿÿ
+Asquid:S1659"'Declare "tvAddress" on a separate line.(æí¿ùÿÿÿÿ
+hsquid:S3008"NRename this field "TAG" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(šİåÛøÿÿÿÿ
+Hsquid:S1068".Remove this unused "tvDistance" private field.(æí¿ùÿÿÿÿ
+Fsquid:S1068",Remove this unused "tvStatus" private field.(æí¿ùÿÿÿÿ
+Gsquid:S1068"-Remove this unused "tvCreated" private field.(æí¿ùÿÿÿÿ
+esquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(´ïËûÿÿÿÿ
+[squid:S1858"F"getTrashName" returns a string, there's no need to call "toString()".(§
+Wsquid:S1858"B"getColor" returns a string, there's no need to call "toString()".(Õö†Ö
+Xsquid:S1858"D"getAddress" returns a string, there's no need to call "toString()".(áÈ»m
+=squid:S1148"#Use a logger to log this exception.(¯Óí‘úÿÿÿÿ
