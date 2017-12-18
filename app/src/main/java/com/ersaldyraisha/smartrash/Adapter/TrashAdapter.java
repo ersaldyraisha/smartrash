@@ -38,7 +38,7 @@ public class TrashAdapter extends RecyclerView.Adapter<TrashViewHolder> {
 
         holder.tvTime.setText("Time: " + distanceList.get(position).getCreated_at().toString());
         holder.tvStatus.setText("Status: " + distanceList.get(position).getStatus());
-        holder.tvDistance.setText("Distance: " + distanceList.get(position).getDistance());
+//        holder.tvDistance.setText("Distance: " + distanceList.get(position).getDistance());
 
     }
 

@@ -36,6 +36,10 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        if ( getSupportActionBar() != null ) {
+            getSupportActionBar().setElevation(0);
+        }
+
         setContentView(R.layout.activity_main);
 
 //        tvDistance = (TextView) findViewById(R.id.tvDistance);

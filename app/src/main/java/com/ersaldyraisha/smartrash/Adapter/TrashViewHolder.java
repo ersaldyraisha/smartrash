@@ -17,7 +17,7 @@ public class TrashViewHolder extends RecyclerView.ViewHolder{
     public TrashViewHolder(View itemView) {
         super(itemView);
 
-        tvDistance = (TextView) itemView.findViewById(R.id.tvDistance);
+//        tvDistance = (TextView) itemView.findViewById(R.id.tvDistance);
         tvStatus = (TextView) itemView.findViewById(R.id.tvStatus);
         tvTime = (TextView) itemView.findViewById(R.id.tvTime);
     }
